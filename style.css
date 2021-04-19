@@ -1,0 +1,44 @@
+body{
+  background-color: #d8e3e7;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2{
+  font-family: 'Noto Serif SC', serif;
+}
+
+#todolist-form button {
+  width: 100%;
+}
+
+.todo-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  padding: 15px 10px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+
+.todo-item p {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.todo {
+  background: #51c4d3;
+}
+
+.completed {
+  background: pink;
+}
+
+.btn-secondary {
+  margin-left: 10px;
+}
